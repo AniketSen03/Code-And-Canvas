@@ -56,8 +56,8 @@ const Services = () => {
 
       {/* First Section */}
       <div className="flex  flex-wrap justify-evenly w-full max-sm:flex-col max-sm:items-center max-sm:gap-y-1">
-        <img src="public/Multicolor Vivid Summer Photo Collage A4 Document.jpg" alt="" className="w-[40%] service-img max-sm:w-max" />
-        <img src="public/Untitled design (1).jpg" alt="" className="w-[40%] service-img max-sm:w-max" />
+        <img src="./Multicolor Vivid Summer Photo Collage A4 Document.jpg" alt="" className="w-[40%] service-img max-sm:w-max" />
+        <img src="./Untitled design (1).jpg" alt="" className="w-[40%] service-img max-sm:w-max" />
       </div>
       <span className="text-3xl text-center text-red-400 font-semibold mt-3 service-text">Design Services</span>
       <hr className="bg-white w-[70%] my-5" />
@@ -67,8 +67,8 @@ const Services = () => {
 
       {/* Second Section */}
       <div className="flex justify-evenly w-full max-sm:flex-col max-sm:items-center max-sm:gap-y-1">
-        <img src="public/screen.jpg" alt="" className="w-[40%] service-img max-sm:w-max" />
-        <img src="public/web  page design.png" alt="" className="w-[40%] service-img max-sm:w-max" />
+        <img src="./screen.jpg" alt="" className="w-[40%] service-img max-sm:w-max" />
+        <img src="./web  page design.png" alt="" className="w-[40%] service-img max-sm:w-max" />
       </div>
       <span className="text-3xl text-red-400 text-center font-semibold mt-3 service-text">Web/App Development</span>
       <hr className="bg-white w-[70%] my-5" />
