@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-image: url('D:\coding\web development\React project\agency\src\assets\bg.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat:repeat-x;
+}
