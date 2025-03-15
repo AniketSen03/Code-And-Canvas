@@ -39,7 +39,7 @@ const Footer = () => {
       <hr className='bg-white my-5' />
       <div className="flex flex-wrap justify-around items-center max-sm:block">
         <div className="flex items-center font-bold font-serif italic text-2xl header-logo">
-          <img src="src/assets/logo.png" alt="" className="h-20" />
+          <img src="./logo.png" alt="" className="h-20" />
           <h1 className="text-yellow-300 max-sm:text-center">
             <span className="text-pink-600">C</span>
             <span className="text-violet-400">ode</span>
