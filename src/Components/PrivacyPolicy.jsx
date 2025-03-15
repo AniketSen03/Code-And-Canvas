@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
   }, [])
   return (
     <div className="text-white p-6 max-w-4xl mx-auto">
-      <img src="https://www.nueclear.com/assets/images/privacy-policy-banner-nueclear.jpg" alt="" />
+      <img src="public/privacy-policy-banner-nueclear.jpg" alt="" />
       <h2 className="text-5xl font-bold my-6 text-center font-serif">📌 Privacy Policy</h2>
 
       <h3 className="text-xl font-semibold mt-4">1. Introduction</h3>

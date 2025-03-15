@@ -43,7 +43,7 @@ const About = () => {
 
   const about = [
     {
-      img: "src/assets/logo.png",
+      img: "public/logo.png",
       des: "Code and Canva is a creative agency that blends innovative web development with stunning graphic design to build impactful digital experiences. We help businesses establish a strong online presence through high-quality websites, branding, and visual storytelling.",
     },
   ];

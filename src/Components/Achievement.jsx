@@ -29,7 +29,7 @@ const Achievements = () => {
   }, []) 
   return (
     <section className="achievements-section py-12  text-white text-center">
-      <img src="https://storage.googleapis.com/sproboticworks/master/assets/images/marketing/posters/achievements.jpg" alt="" />
+      <img src="public/achievements.jpg" alt="" />
       <h2 className="text-5xl font-bold my-6 font-serif">🏅 Achievements</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto px-6">
         {achievements.map((achievement, index) => (
