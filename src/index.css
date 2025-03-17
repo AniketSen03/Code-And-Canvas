@@ -8,3 +8,7 @@ body{
   background-position: top;
   background-repeat:repeat-x;
 }
+::-webkit-scrollbar-thumb{
+  color: red;
+  background-color: red;
+}
