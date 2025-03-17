@@ -8,3 +8,11 @@ body{
   background-position: top;
   background-repeat:repeat-x;
 }
+::-webkit-scrollbar{
+  background-color:  #2d2d2d;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#FF0000;
+  border-radius: 5px;
+}
