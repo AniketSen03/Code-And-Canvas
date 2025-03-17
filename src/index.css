@@ -8,6 +8,7 @@ body{
   background-position: top;
   background-repeat:repeat-x;
 }
+<<<<<<< HEAD
 ::-webkit-scrollbar{
   background-color:  #2d2d2d;
   width: 5px;
@@ -16,3 +17,9 @@ body{
   background-color:#FF0000;
   border-radius: 5px;
 }
+=======
+::-webkit-scrollbar-thumb{
+  color: red;
+  background-color: red;
+}
+>>>>>>> 58b0eb9666d10139d5b4d7ba411843a49aa7b12c
