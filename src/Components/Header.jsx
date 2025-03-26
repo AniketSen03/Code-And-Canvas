@@ -34,7 +34,7 @@ const Header = () => {
         <div className="flex justify-between px-10 max-sm:px-0 items-center backdrop-blur-sm w-[100%]">
           
           {/* Logo & Brand Name */}
-          <div className="flex items-center font-bold font-serif italic text-2xl header-logo">
+          <div className="flex items-center font-bold font-serif italic text-2xl max-sm:text-xl header-logo">
             <img src="./logo.png" alt="" className="h-20" />
             <h1 className="text-yellow-300">
               <span className="text-pink-600">C</span>
