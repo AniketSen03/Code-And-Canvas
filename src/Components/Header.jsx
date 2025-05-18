@@ -39,7 +39,7 @@ const Header = () => {
             <h1 className="text-yellow-300">
               <span className="text-pink-600">C</span>
               <span className="text-violet-400">ode</span> 
-              <span className="text-green-500">And</span> Canva
+              <span className="text-green-500">And</span> Canvas
             </h1>
           </div>
 
