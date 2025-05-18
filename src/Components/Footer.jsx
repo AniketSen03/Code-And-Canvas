@@ -33,7 +33,7 @@ const Footer = () => {
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Phone : +91 9039141469</Link></li>
           <li><a href='https://www.instagram.com/code_and_canva/' target="_blank" className="hover:text-red-400 transition-all duration-200 ease-in">Instagram : Code_And_Canva</a></li>
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">WhatsApp : +91 9039141469</Link></li>
-          <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Website : www.Code And Canvas.netlify.app</Link></li>
+          <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Website : code-and-canvas.netlify.app</Link></li>
         </ul>
       </div>
       <hr className='bg-white my-5' />

@@ -42,7 +42,7 @@ const TermsConditions = () => {
       <p>These terms are governed by the laws of <strong>India</strong>.</p>
 
       <h3 className="text-xl font-semibold mt-4">8. Contact Us</h3>
-      <p>For any questions, email us at <strong>support@codeandcanva.com</strong>.</p>
+      <p>For any questions, email us at <strong>@ code-and-canvas.netlify.app</strong>.</p>
     </div>
   );
 };

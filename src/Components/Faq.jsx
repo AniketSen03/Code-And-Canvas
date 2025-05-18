@@ -96,7 +96,7 @@ export default Faq;
 //   {
 //     question: "How do I get a quote for my project?",
 //     answer:
-//       "You can contact us via our form or email us at contact@codeandcanva.com with your project details.",
+//       "You can contact us via our form or email us at contact @ codeandcanvas.nelify.app with your project details.",
 //   },
 // ];
 
