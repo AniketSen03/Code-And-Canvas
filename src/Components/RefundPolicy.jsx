@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 
 const RefundPolicy = () => {
   useEffect(() => {
-    document.title = "Refund Policy | Code and Canva"; // Change title
+    document.title = "Refund Policy | Code and Canvas"; // Change title
   }, [])
   return (
     <div className="text-white p-6 max-w-4xl mx-auto">

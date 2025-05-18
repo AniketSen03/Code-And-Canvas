@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 
 const TermsConditions = () => {
   useEffect(() => {
-    document.title = "Terms And Conditon | Code and Canva"; // Change title
+    document.title = "Terms And Conditon | Code and Canvas"; // Change title
   }, [])
   return (
     <div className="text-white p-6 max-w-4xl mx-auto">
@@ -12,7 +12,7 @@ const TermsConditions = () => {
       <h2 className="text-5xl font-bold my-6 text-center font-serif">📌 Terms & Conditions</h2>
 
       <h3 className="text-xl font-semibold mt-4">1. Introduction</h3>
-      <p>Welcome to <strong>Code and Canva</strong>! By using our website and services, you agree to comply with these terms.</p>
+      <p>Welcome to <strong>Code and Canvas</strong>! By using our website and services, you agree to comply with these terms.</p>
 
       <h3 className="text-xl font-semibold mt-4">2. Services Offered</h3>
       <p>We provide <strong>graphic design, branding, website development, and digital content creation.</strong> Our services are tailored to meet client requirements.</p>

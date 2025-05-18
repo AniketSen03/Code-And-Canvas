@@ -25,7 +25,7 @@ const achievements = [
 
 const Achievements = () => {
   useEffect(() => {
-    document.title = "Achievements | Code and Canva"; // Change title
+    document.title = "Achievements | Code and Canvas"; // Change title
   }, []) 
   return (
     <section className="achievements-section py-12  text-white text-center">

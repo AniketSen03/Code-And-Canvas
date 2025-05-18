@@ -71,7 +71,7 @@ const Contact = () => {
   };
 
     useEffect(() => {
-      document.title = "Contact | Code and Canva"; // Change title
+      document.title = "Contact | Code and Canvas"; // Change title
     }, [])
   return (
     <section className="py-12 max-sm:ml-20">
@@ -142,7 +142,7 @@ export default Contact;
 
 // const Contact = () => {
 //   useEffect(() => {
-//     document.title = "Contact | Code and Canva"; // Change title
+//     document.title = "Contact | Code and Canvas"; // Change title
 //   }, []);
   
 //   const [formData, setFormData] = useState({

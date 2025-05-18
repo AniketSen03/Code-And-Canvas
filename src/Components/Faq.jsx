@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const faqs = [
   {
-    question: "What services does Code and Canva offer?",
+    question: "What services does Code and Canvas offer?",
     answer: "We specialize in Web Development, UI/UX Design, Graphic Design, and Branding.",
   },
   {
@@ -25,7 +25,7 @@ const faqs = [
 
 const Faq = () => {
   useLayoutEffect(() => {
-    document.title = "FAQ | Code and Canva"; // Change title
+    document.title = "FAQ | Code and Canvas"; // Change title
 
     const ctx = gsap.context(() => {
       gsap.utils.toArray(".faq-card").forEach((el, index) => {
@@ -79,7 +79,7 @@ export default Faq;
 
 // const faqs = [
 //   {
-//     question: "What services does Code and Canva offer?",
+//     question: "What services does Code and Canvas offer?",
 //     answer:
 //       "We specialize in Web Development, UI/UX Design, Graphic Design, and Branding.",
 //   },
@@ -102,7 +102,7 @@ export default Faq;
 
 // const Faq = () => {
 //   useEffect(() => {
-//     document.title = "FAQ | Code and Canva"; // Change title
+//     document.title = "FAQ | Code and Canvas"; // Change title
 //   }, [])
 //   return (
 //     <section className="py-12">

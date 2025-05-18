@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Services = () => {
   useEffect(() => {
-    document.title = "Services | Code and Canva"; // Change title
+    document.title = "Services | Code and Canvas"; // Change title
   }, []);
 
   useLayoutEffect(() => {
@@ -84,7 +84,7 @@ export default Services;
 
 // const Services = () => {
 //   useEffect(() => {
-//     document.title = "Services | Code and Canva"; // Change title
+//     document.title = "Services | Code and Canvas"; // Change title
 //   }, []);
 //   return (
 //     <>

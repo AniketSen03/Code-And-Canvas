@@ -8,7 +8,7 @@ import Faq from './Components/Faq'
 
 const Home = () => {
     useEffect(() => {
-        document.title = "Code and Canva"; // Set title when component loads
+        document.title = "Code and Canvas"; // Set title when component loads
     }, []);
     return (
         <>

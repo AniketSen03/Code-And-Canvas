@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="text-white py-6 mt-10">
       <div className="mx-auto px-6 flex flex-col md:flex-row justify-around items-start font-serif max-sm:text-sm max-sm:items-center max-sm:text-center">
         <ul>
-          <li className="font-bold text-red-500">Code And Canva</li>
+          <li className="font-bold text-red-500">Code And Canvas</li>
           <li><Link to={'/'} className="hover:text-red-400 transition-all duration-200 ease-in">Home</Link></li>
           <li><Link to={'/about'} className="hover:text-red-400 transition-all duration-200 ease-in">About</Link></li>
           <li><Link to={'/services'} className="hover:text-red-400 transition-all duration-200 ease-in">Services</Link></li>
@@ -33,7 +33,7 @@ const Footer = () => {
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Phone : +91 9039141469</Link></li>
           <li><a href='https://www.instagram.com/code_and_canva/' target="_blank" className="hover:text-red-400 transition-all duration-200 ease-in">Instagram : Code_And_Canva</a></li>
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">WhatsApp : +91 9039141469</Link></li>
-          <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Website : www.Code And Canva.netlify.app</Link></li>
+          <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Website : www.Code And Canvas.netlify.app</Link></li>
         </ul>
       </div>
       <hr className='bg-white my-5' />
@@ -48,7 +48,7 @@ const Footer = () => {
           </h1>
         </div>
         <div className="text-center text-gray-500 text-sm max-sm:ml-20">
-          © {new Date().getFullYear()} Code and Canva. All rights reserved.
+          © {new Date().getFullYear()} Code and Canvas. All rights reserved.
         </div>
         <div className="flex justify-center items-center space-x-4 mt-4 md:mt-0 max-sm:justify-evenly max-sm:ml-20">
           <a href="https://www.linkedin.com/in/aniketsen03/" target="_blank" className="hover:text-red-500 transition-all duration-200 ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

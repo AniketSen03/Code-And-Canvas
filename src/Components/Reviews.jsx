@@ -5,15 +5,15 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const reviews = [
-  { id: 1, name: "Rahul Sharma", review: "Code and Canva transformed my business with a stunning website and brand identity. Highly recommended!", rating: 5 },
-  { id: 2, name: "Priya Mehta", review: "Loved working with Code and Canva! Their UI/UX design skills are top-notch. The website is smooth and beautiful.", rating: 4 },
+  { id: 1, name: "Rahul Sharma", review: "Code and Canvas transformed my business with a stunning website and brand identity. Highly recommended!", rating: 5 },
+  { id: 2, name: "Priya Mehta", review: "Loved working with Code and Canvas! Their UI/UX design skills are top-notch. The website is smooth and beautiful.", rating: 4 },
   { id: 3, name: "Amit Verma", review: "Amazing service and support. They understood my vision perfectly and delivered beyond expectations.", rating: 3 },
-  { id: 4, name: "Sarthak Khare", review: "Code and Canva is a skilled team with expertise in React.js and Tailwind CSS. They ensure seamless user experiences and deliver high-quality web solutions. Highly recommended!", rating: 5 },
+  { id: 4, name: "Sarthak Khare", review: "Code and Canvas is a skilled team with expertise in React.js and Tailwind CSS. They ensure seamless user experiences and deliver high-quality web solutions. Highly recommended!", rating: 5 },
 ];
 
 const Reviews = () => {
   useLayoutEffect(() => {
-    document.title = "Reviews | Code and Canva"; // Set page title
+    document.title = "Reviews | Code and Canvas"; // Set page title
 
     // Ensure GSAP runs after DOM updates
     const ctx = gsap.context(() => {
@@ -82,14 +82,14 @@ export default Reviews;
 //     id: 1,
 //     name: "Rahul Sharma",
 //     review:
-//       "Code and Canva transformed my business with a stunning website and brand identity. Highly recommended!",
+//       "Code and Canvas transformed my business with a stunning website and brand identity. Highly recommended!",
 //     rating: 5,
 //   },
 //   {
 //     id: 2,
 //     name: "Priya Mehta",
 //     review:
-//       "Loved working with Code and Canva! Their UI/UX design skills are top-notch. The website is smooth and beautiful.",
+//       "Loved working with Code and Canvas! Their UI/UX design skills are top-notch. The website is smooth and beautiful.",
 //     rating: 4,
 //   },
 //   {
@@ -103,7 +103,7 @@ export default Reviews;
 //     id: 4,
 //     name: "Sarthak Khare",
 //     review:
-//       "Code and Canva is a skilled team with expertise in React.js and Tailwind CSS. They ensure seamless user experiences and deliver high-quality web solutions. Highly recommended!",
+//       "Code and Canvas is a skilled team with expertise in React.js and Tailwind CSS. They ensure seamless user experiences and deliver high-quality web solutions. Highly recommended!",
 //     rating: 5,
 //   },
 

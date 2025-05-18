@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   useEffect(() => {
-    document.title = "About | Code and Canva"; // Change title
+    document.title = "About | Code and Canvas"; // Change title
   }, []);
 
   useLayoutEffect(() => {
@@ -44,7 +44,7 @@ const About = () => {
   const about = [
     {
       img: "./logo.png",
-      des: "Code and Canva is a creative agency that blends innovative web development with stunning graphic design to build impactful digital experiences. We help businesses establish a strong online presence through high-quality websites, branding, and visual storytelling.",
+      des: "Code and Canvas is a creative agency that blends innovative web development with stunning graphic design to build impactful digital experiences. We help businesses establish a strong online presence through high-quality websites, branding, and visual storytelling.",
     },
   ];
 
@@ -53,7 +53,7 @@ const About = () => {
       {/* Left Side (Logo) */}
       <div className="flex flex-col items-center about-img">
         <span className="font-bold text-5xl text-white font-serif">What is</span>
-        <img src={about[0].img} alt="Code and Canva Logo" className="w-40" />
+        <img src={about[0].img} alt="Code and Canvas Logo" className="w-40" />
       </div>
 
       {/* Right Side (Description) */}
@@ -74,13 +74,13 @@ export default About;
 
 // const About = () => {
 //   useEffect(() => {
-//     document.title = "About | Code and Canva"; // Change title
+//     document.title = "About | Code and Canvas"; // Change title
 //   }, [])
 
 //   const about = [
 //     {
 //       img: 'src/assets/logo.png',
-//       des: 'Code and Canva is a creative agency that blends innovative web development with stunning graphic design to build impactful digital experiences. We help businesses establish a strong online presence through high-quality websites, branding, and visual storytelling.'
+//       des: 'Code and Canvas is a creative agency that blends innovative web development with stunning graphic design to build impactful digital experiences. We help businesses establish a strong online presence through high-quality websites, branding, and visual storytelling.'
 //     }
 //   ]
 //   return (

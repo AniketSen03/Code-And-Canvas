@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
-    document.title = "Privacy Policy | Code and Canva"; // Change title
+    document.title = "Privacy Policy | Code and Canvas"; // Change title
   }, [])
   return (
     <div className="text-white p-6 max-w-4xl mx-auto">
@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
 
       <h3 className="text-xl font-semibold mt-4">1. Introduction</h3>
       <p>
-        At <strong>Code and Canva</strong>, we respect your privacy and are committed to protecting your personal information.
+        At <strong>Code and Canvas</strong>, we respect your privacy and are committed to protecting your personal information.
         This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or use our services.
       </p>
 
