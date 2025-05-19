@@ -12,7 +12,11 @@ import RefundPolicy from './Components/RefundPolicy'
 import Faq from './Components/Faq'
 import Reviews from './Components/Reviews'
 import Achievements from './Components/Achievement'
-
+import Web from './Components/web'
+import Design from './Components/Design'
+import Video from './Video'
+import DataEntry from './DataEntry'
+import Wt from './Wt'
 const App = () => {
   return (
     <>
@@ -28,6 +32,11 @@ const App = () => {
         <Route path='/terms&conditions' element={<TermsConditions />} />
         <Route path='/refund&replacement' element={<RefundPolicy />} />
         <Route path='/achievements' element={<Achievements />} />
+        <Route path='/web' element={<Web />} />
+        <Route  path='/designs' element={<Design />}/>
+        <Route  path='/video-editing' element={<Video />}/>
+        <Route  path='/data-entry' element={<DataEntry />}/>
+        <Route  path='/writing-translation' element={<Wt />}/>
       </Routes>
       <Footer />
 

@@ -8,7 +8,7 @@ const RefundPolicy = () => {
   }, [])
   return (
     <div className="text-white p-6 max-w-4xl mx-auto">
-      <img src="./refund-policy-banner.jpg" alt="" />
+      <img src="public/6.jpg" alt=""/>
       <h2 className="text-5xl font-bold my-6 text-center font-serif">📌 Refund & Replacement Policy</h2>
 
       <h3 className="text-xl font-semibold mt-4">1. Eligibility for Refunds</h3>
