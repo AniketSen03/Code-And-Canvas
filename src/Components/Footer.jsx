@@ -31,7 +31,7 @@ const Footer = () => {
           <li className="font-bold text-red-500">Contact</li>
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Email : aniketsen521@gmail.com</Link></li>
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Phone : +91 9039141469</Link></li>
-          <li><a href='https://www.instagram.com/code_and_canva/' target="_blank" className="hover:text-red-400 transition-all duration-200 ease-in">Instagram : Code_And_Canva</a></li>
+          <li><a href='https://www.instagram.com/code_and_canva/' target="_blank" className="hover:text-red-400 transition-all duration-200 ease-in">Instagram : Code_And_Canvas</a></li>
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">WhatsApp : +91 9039141469</Link></li>
           <li><Link to={'/contact'} className="hover:text-red-400 transition-all duration-200 ease-in">Website : code-and-canvas.netlify.app</Link></li>
         </ul>
@@ -43,8 +43,8 @@ const Footer = () => {
           <h1 className="text-yellow-300 max-sm:text-center">
             <span className="text-pink-600">C</span>
             <span className="text-violet-400">ode</span>
-            <span className="text-green-500">And</span> Canva
-            <p className="text-gray-400 text-sm">Innovating with Code, Creating with Canva.</p>
+            <span className="text-green-500">And</span> Canvas
+            <p className="text-gray-400 text-sm">Innovating with Code, Creating with Canvas.</p>
           </h1>
         </div>
         <div className="text-center text-gray-500 text-sm max-sm:ml-20">
