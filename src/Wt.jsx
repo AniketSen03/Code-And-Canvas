@@ -3,7 +3,7 @@ import React from 'react'
 const Wt = () => {
   return (
     <>
-     <img src="public/5.jpg" alt="" />
+     <img src="/5.jpg" alt="" />
     </>
   )
 }

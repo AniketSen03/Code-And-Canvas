@@ -8,7 +8,7 @@ const TermsConditions = () => {
   }, [])
   return (
     <div className="text-white p-6 max-w-4xl mx-auto">
-      <img src="public/8.jpg" alt="" />
+      <img src="/8.jpg" alt="" />
       <h2 className="text-5xl font-bold my-6 text-center font-serif">📌 Terms & Conditions</h2>
 
       <h3 className="text-xl font-semibold mt-4">1. Introduction</h3>

@@ -3,7 +3,7 @@ import React from 'react'
 const Video = () => {
     return (
         <>
-            <img src="public/3.jpg" alt="" />
+            <img src="/3.jpg" alt="" />
         </>
     )
 }
