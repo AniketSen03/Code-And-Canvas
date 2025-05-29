@@ -30,8 +30,8 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex justify-between items-center sticky top-0 z-10 max-sm:pl-10">
-        <div className="flex justify-between px-10 max-sm:px-0 items-center backdrop-blur-sm w-[100%]">
+      <header className="flex justify-between items-center sticky max-sm:fixed w-full shadow-lg top-0 z-10 max-sm:pl-10">
+        <div className="flex justify-between max-sm:justify-evenly px-10 max-sm:px-0 items-center backdrop-blur-sm w-[100%]">
           
           {/* Logo & Brand Name */}
           <div className="flex items-center font-bold font-serif italic text-2xl max-sm:text-xl header-logo">
