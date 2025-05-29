@@ -19,19 +19,19 @@ const faqs = [
   },
   {
     question: "How do I get a quote for my project?",
-      answer: "You can contact us via our form or email us at aniketsen521@gmail.com with your project details.",
+    answer: "You can contact us via our form or email us at aniketsen521@gmail.com with your project details.",
   },
 ];
 
 const Faq = () => {
   useLayoutEffect(() => {
-    document.title = "FAQ | Code and Canvas"; // Change title
+    document.title = "FAQ | Code and Canvas";
 
     const ctx = gsap.context(() => {
       gsap.utils.toArray(".faq-card").forEach((el, index) => {
         gsap.from(el, {
           opacity: 0,
-          x: index % 2 === 0 ? -100 : 100, // Alternate: Left (-100) & Right (100)
+          x: index % 2 === 0 ? -100 : 100,
           duration: 0.8,
           ease: "power2.out",
           scrollTrigger: {
@@ -44,20 +44,23 @@ const Faq = () => {
       });
     });
 
-    return () => ctx.revert(); // Cleanup on unmount
+    return () => ctx.revert();
   }, []);
 
   return (
-    <section className="py-12">
-      <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-5xl font-bold text-white text-center mb-6 font-serif">
+    <section className="py-8 sm:py-10 md:py-12  min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-8 font-serif">
           ❓ Frequently Asked Questions
         </h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="faq-card bg-white p-4 rounded-lg shadow-md hover:bg-red-400 transition-all duration-300 ease-in">
-              <h3 className="text-lg font-semibold text-gray-900">{faq.question}</h3>
-              <p className="text-gray-700 mt-2">{faq.answer}</p>
+            <div
+              key={index}
+              className="faq-card bg-white/90 p-4 sm:p-6 rounded-lg shadow-md hover:bg-red-400/90 transition-all duration-300 ease-in cursor-pointer"
+            >
+              <h3 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">{faq.question}</h3>
+              <p className="text-sm sm:text-base text-gray-700 mt-2">{faq.answer}</p>
             </div>
           ))}
         </div>
@@ -67,58 +70,3 @@ const Faq = () => {
 };
 
 export default Faq;
-
-
-
-
-
-
-
-// import React, { useEffect } from "react";
-
-
-// const faqs = [
-//   {
-//     question: "What services does Code and Canvas offer?",
-//     answer:
-//       "We specialize in Web Development, UI/UX Design, Graphic Design, and Branding.",
-//   },
-//   {
-//     question: "How long does it take to complete a project?",
-//     answer:
-//       "Project timelines vary, but typically websites take 1-2 weeks, and branding projects take 1-2 weeks.",
-//   },
-//   {
-//     question: "Do you offer post-launch support?",
-//     answer:
-//       "Yes, we provide maintenance and support services after project completion to ensure smooth performance.",
-//   },
-//   {
-//     question: "How do I get a quote for my project?",
-//     answer:
-//       "You can contact us via our form or email us at contact @ codeandcanvas.nelify.app with your project details.",
-//   },
-// ];
-
-// const Faq = () => {
-//   useEffect(() => {
-//     document.title = "FAQ | Code and Canvas"; // Change title
-//   }, [])
-//   return (
-//     <section className="py-12">
-//       <div className="max-w-4xl mx-auto px-6">
-//         <h2 className="text-3xl font-bold text-white text-center mb-6">❓ Frequently Asked Questions</h2>
-//         <div className="space-y-4">
-//           {faqs.map((faq, index) => (
-//             <div key={index} className="bg-white p-4 rounded-lg shadow-md">
-//               <h3 className="text-lg font-semibold text-gray-900">{faq.question}</h3>
-//               <p className="text-gray-700 mt-2">{faq.answer}</p>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Faq;
