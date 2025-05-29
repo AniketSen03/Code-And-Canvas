@@ -83,7 +83,7 @@ const Services = () => {
           className="flex flex-col items-center justify-evenly gap-4 cursor-pointer"
           onClick={() => navigate(elem.path)}
         >
-          <img src={elem.img} alt="" className="w-[60%] service-img my-2" />
+          <img src={elem.img} alt="" className="w-[60%] max-sm:w-[100%] service-img my-2" />
           <h1 className="text-white service-text text-center text-3xl capitalize mb-4 font-extralight font-[math]">{elem.service}</h1>
         </div>
       ))}
