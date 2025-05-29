@@ -6,19 +6,20 @@ import Contact from './Components/Contact'
 import Reviews from './Components/Reviews'
 import Faq from './Components/Faq'
 
+
 const Home = () => {
     useEffect(() => {
-        document.title = "Code and Canvas"; // Set title when component loads
+        document.title = "Code and Canvas";
     }, []);
     return (
-        <>
+        <div className="home-container">
             <Hero />
             <About />
             <Services />
             <Contact />
             <Reviews />
             <Faq />
-        </>
+        </div>
     )
 }
 

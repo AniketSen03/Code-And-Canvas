@@ -6,14 +6,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   useEffect(() => {
-    document.title = "About | Code and Canvas"; // Change title
+    document.title = "About | Code and Canvas";
   }, []);
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from(".about-img", {
         opacity: 0,
-        x: -100, // Move from the left
+        x: -100,
         duration: 1,
         ease: "power2.out",
         scrollTrigger: {
@@ -26,7 +26,7 @@ const About = () => {
 
       gsap.from(".about-text", {
         opacity: 0,
-        x: 100, // Move from the right
+        x: 100,
         duration: 1,
         ease: "power2.out",
         scrollTrigger: {
@@ -38,7 +38,7 @@ const About = () => {
       });
     });
 
-    return () => ctx.revert(); // Cleanup on unmount
+    return () => ctx.revert();
   }, []);
 
   const about = [
@@ -49,15 +49,28 @@ const About = () => {
   ];
 
   return (
-    <div className="about-section flex flex-wrap justify-evenly items-center my-36 max-sm:justify-center max-sm:ml-[5em]">
+    <div className="about-section flex flex-wrap justify-evenly items-center my-36 gap-10 px-4
+      max-w-7xl mx-auto
+      md:flex-nowrap md:gap-20
+      sm:my-24 sm:px-6
+      max-sm:flex-col max-sm:my-16 max-sm:px-4">
       {/* Left Side (Logo) */}
-      <div className="flex flex-col items-center about-img">
-        <span className="font-bold text-5xl text-white font-serif">What is</span>
-        <img src={about[0].img} alt="Code and Canvas Logo" className="w-40" />
+      <div className="flex flex-col items-center about-img mb-8 md:mb-0">
+        <span className="font-bold text-4xl md:text-5xl text-white font-serif mb-4 text-center">
+          What is
+        </span>
+        <img
+          src={about[0].img}
+          alt="Code and Canvas Logo"
+          className="w-28 h-auto md:w-40"
+        />
       </div>
 
       {/* Right Side (Description) */}
-      <p className="about-text font-mono text-justify text-xl text-red-50 max-w-lg first-letter:text-red-500 first-letter:font-extrabold">
+      <p className="about-text font-mono text-justify text-base md:text-xl text-red-50 max-w-lg
+        first-letter:text-red-500 first-letter:font-extrabold
+        sm:text-lg
+        ">
         {about[0].des}
       </p>
     </div>
@@ -65,36 +78,3 @@ const About = () => {
 };
 
 export default About;
-
-
-
-
-
-// import React, { useEffect } from 'react'
-
-// const About = () => {
-//   useEffect(() => {
-//     document.title = "About | Code and Canvas"; // Change title
-//   }, [])
-
-//   const about = [
-//     {
-//       img: 'src/assets/logo.png',
-//       des: 'Code and Canvas is a creative agency that blends innovative web development with stunning graphic design to build impactful digital experiences. We help businesses establish a strong online presence through high-quality websites, branding, and visual storytelling.'
-//     }
-//   ]
-//   return (
-//     <>
-//       <div className='flex justify-evenly items-center my-36'>
-//         <div className='flex flex-col items-center'>
-//           <span className='font-bold text-5xl text-white '>What is
-//           </span>
-//           <img src={about[0].img} alt="" />
-//         </div>
-//         <p className='font-serif  text-xl text-red-50 pl-96'>{about[0].des}</p>
-//       </div>
-//     </>
-//   )
-// }
-
-// export default About
